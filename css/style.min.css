@@ -1054,7 +1054,7 @@ textarea.input {
 }
 
 ._anim-text p {
-  transform: translate(-50%, 0);
+  transform: translate(0%, 50%);
   opacity: 0;
   visibility: hidden;
 }
@@ -5238,7 +5238,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 .rows-about__title._anim-items {
-  transform: translate(-50%, 0);
+  transform: translate(0, 50%);
 }
 .rows-about__text {
   margin-bottom: 40px;
@@ -5317,10 +5317,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 .book-about__title._anim-items {
-  transform: translate(-30%, 0);
+  transform: translate(0, 20%);
 }
 .book-about__button-parent._anim-items {
-  transform: translate(0%, 20%);
+  transform: translate(0%, 30%);
 }
 .book-about__control {
   display: flex;
