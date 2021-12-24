@@ -5055,6 +5055,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .rows-about__row {
     display: flex;
   }
+  .rows-about__row_right .rows-about__image {
+    flex: 0 0 50%;
+  }
   .rows-about__row_right .rows-about__image::after {
     right: -1px;
   }
@@ -5094,7 +5097,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     z-index: -1;
     bottom: 0;
     right: 0;
-    transform: translate(50%, 30%);
+    transform: translate(70%, 40%);
   }
   .rows-about__row_right .rows-about__body._absolute .rows-about__vector._anim-items {
     transition: all 1s ease 0s;
@@ -5108,32 +5111,45 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     right: 0;
   }
 }
-@media (min-width: 767.98px) and (max-width: 1220px) {
-  .rows-about__row_right .rows-about__body._absolute .rows-about__vector {
-    transform: translate(30%, 10%);
-  }
-}
 @media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__image {
     transform: translate(-100%, 0px);
     z-index: 3;
+    flex: 0 0 calc((100vw - 40px) * 0.5069444444 + 20px);
   }
+}
+@media (min-width: 767.98px) and (min-width: 1200px) {
+  .rows-about__row_left .rows-about__image {
+    flex: 0 0 calc(50vw + 8.0555555556px);
+  }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__image::after {
     left: -1px;
     transform: rotate(-180deg);
   }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__column {
     flex: 0 0 100%;
   }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__container {
     width: 100%;
   }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__body {
-    width: 50%;
+    width: 48%;
   }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__content {
     margin: 0px 20px 0px 0px;
   }
+}
+@media (min-width: 767.98px) {
   .rows-about__row_left .rows-about__vector {
     display: flex;
     justify-content: flex-end;
@@ -5153,9 +5169,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 0px 0px 56.25% 0px;
 }
 @media (min-width: 767.98px) {
-  .rows-about__image {
-    flex: 0 0 50%;
-  }
   .rows-about__image::after {
     content: "";
     width: 17px;
@@ -5259,7 +5272,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .rows-about__vector {
   transform: translate(20%, 0);
 }
-@media (max-width: 1023.98px) {
+@media (max-width: 1220px) {
   .rows-about__vector {
     display: none !important;
   }
