@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>menu</title>
+    <title>banquets</title>
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.min.css">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="wrapper wrapper-full2">
+    <div class="wrapper">
         <!-- *Header -->
         <header class="header">
     <div class="header__container _container">
@@ -127,20 +127,85 @@
 </header>
         <!-- *page-->
         <main class="page">
-            <!-- *error -->
-            <section class="error">
-                <div class="error__container _container">
-                    <div class="error__body">
-                        <div class="error__image">
-                            <img src="img/404.svg" alt="404">
-                        </div>
-                        <div class="error__content">
-                            <h1 class="error__title _title">Страница не найдена</h1>
-                            <div class="error__text _text">
-                                Мы не можем найти нужную страницу. Возможно, она была удалена,
-                                или вы неправильно
-                                набрали адрес. Перейдите на Главную или посмотрите наше Меню.
+            <section class="book book_original">
+                <div class="book__container _container">
+                    <div class="book__body">
+                        <div class="book__main">
+                            <div class="book__header">
+                                <h2 class="book__title _title">Забронировать столик</h2>
                             </div>
+                            <form action="" class="book__form form">
+                                <div class="book__form-body">
+                                    <div class="book__line">
+                                        <label for="" class="form__label">Выберите ресторан</label>
+                                        <select name="form[]" class="sel">
+                                            <option value="1" selected="selected">Москва, ул.
+                                                Садовническая
+                                                57с1
+                                            </option>
+                                            <option value="2">Москва, ул. Смоленская пл., вл 7,
+                                                фуд-холл Eat
+                                                Market
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="book__lines book__lines_1">
+                                        <div class="book__line">
+                                            <label for="" class="form__label">Имя</label>
+                                            <div class="form__input">
+                                                <input autocomplete="off" type="text" name="form[]"
+                                                    data-value="" class="input">
+                                            </div>
+                                        </div>
+                                        <div class="book__line">
+                                            <label for="" class="form__label">Телефон</label>
+                                            <div class="form__input">
+                                                <input autocomplete="off" type="text" name="form[]"
+                                                    data-value="" class="input _phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book__lines book__lines_2">
+                                        <div class="book__line">
+                                            <label for="" class="form__label">Дата</label>
+                                            <div class="form__input book__calendar">
+                                                <input id="calendar" autocomplete="off" type="text"
+                                                    name="form[] " data-value="" class="input _date _date2">
+                                                <span class="book__calendar-icon">
+                                                    <img src="img/icons/calendar.svg" alt="calendar">
+                                                </span>
+                                                <!-- <label for="calendar" class="book__calendar-icon">
+                                                    <img src="img/icons/calendar.svg" alt="calendar">
+                                                </label> -->
+                                            </div>
+                                        </div>
+                                        <div class="book__line">
+                                            <label for="" class="form__label">Время</label>
+                                            <div class="form__input">
+                                                <input autocomplete="off" type="text" name="form[]"
+                                                    data-value="" class="input _time">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book__line">
+                                        <label for="" class="form__label">Ваши пожелания</label>
+                                        <div class="form__input">
+                                            <input autocomplete="off" type="text" name="form[]"
+                                                data-value="" class="input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="book__button btn _icon-a-next _fw">
+                                    <span>Забронировать столик</span>
+                                </button>
+                                <div class="book__text">
+                                    Нажимая «Забронировать столик», вы принимаете условия
+                                    <a href="">Пользовательского соглашения</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="book__image">
+                            <img src="img/products.svg" alt="">
                         </div>
                     </div>
                 </div>
