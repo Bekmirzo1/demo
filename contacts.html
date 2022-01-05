@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>thanks</title>
+    <title>chef</title>
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.min.css">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="wrapper wrapper-full2">
+    <div class="wrapper wrapper-height">
         <!-- *Header -->
         <header class="header">
     <div class="header__container _container">
@@ -127,31 +127,95 @@
 </header>
         <!-- *page-->
         <main class="page">
-            <section class="registered">
-                <div class="registered__container">
-                    <div class="registered__body">
-                        <div class="registered__image">
-                            <img src="img/oyster.svg" alt="oyster">
-                        </div>
-                        <div class="registered__content">
-                            <h2 class="registered__title _title">Спасибо!</h2>
-                            <div class="registered__text">
-                                <p>
-                                    Вы забронировали столик в «Рыбе Мечты» по адресу Москва, Садовнической 57с1.
-                                    Ждем Вас 15.10.2021 в 15:10.
-                                </p>
-                                <p>
-                                    Если у вас есть вопросы, или вы хотите отменить бронь, позвоните по номеру: <br>
-                                    <a href="tel:+79153777377" class="_hv-color">+7 (915) 377-73-77</a>
-                                </p>
+            <!-- *chef -->
+            <div class="chef contacts">
+                <div class="chef__pagination pag-top">
+                    <div class="pag-top__container _container">
+                        <ul class="pag-top__list">
+                            <li class="pag-top__item">
+                                <a href="">Главная</a>
+                            </li>
+                            <li class="pag-top__item">
+                                <a href="">о ресторане</a>
+                            </li>
+                            <li class="pag-top__item ">
+                                <a href="">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h1 class="chef__title _title">КОНТАКТЫ</h1>
+                <div class="contacts__main">
+                    <div class="contacts__container _container">
+                        <div class="contacts__body">
+                            <div class="contacts__map">
+                                <div id="map" class="contacts__map-body">
+                                </div>
                             </div>
-                            <a href="menu.html" class="registered__more _more _icon-a-next">
-                                <span>Смотреть меню</span>
-                            </a>
+                            <div class="contacts__content content-contacts">
+                                <div class="content-contacts__body">
+                                    <div class="content-contacts__list list-built">
+                                        <div class="list-built__columns">
+                                            <div class="list-built__column">
+                                                <h4 class="list-built__title">Адреса ресторанов:</h4>
+                                                <ul class="list-built__items list-built__items_without">
+                                                    <li class="list-built__item">
+                                                        115035, г. Москва, ул. Садовническая, д. 57, стр. 1
+                                                    </li>
+                                                    <li class="list-built__item">
+                                                        121099, г. Москва, ул. Смоленская пл., вл 7, фуд-холл Eat Market
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="list-built__column">
+                                                <h4 class="list-built__title">Юридический адрес:</h4>
+                                                <ul class="list-built__items list-built__items_without">
+                                                    <li class="list-built__item">
+                                                        115035, г. Москва, ул. Садовническая, д. 57 стр. 1, Цоколь 1
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="list-built__column">
+                                                <h4 class="list-built__title">Реквизиты:</h4>
+                                                <ul class="list-built__items list-built__items_without">
+                                                    <li class="list-built__item">
+                                                        ООО "ВЕРА"
+                                                    </li>
+                                                    <li class="list-built__item">
+                                                        ИНН 9705097020 / ОГРН
+                                                    </li>
+                                                    <li class="list-built__item">
+                                                        1177746475037
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="list-built__column">
+                                                <h4 class="list-built__title">телефон:</h4>
+                                                <ul class="list-built__items list-built__items_without">
+                                                    <li class="list-built__item">
+                                                        <a href="tel:+74951270888">+7 495 127 08 88</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="list-built__column">
+                                                <h4 class="list-built__title">email:</h4>
+                                                <ul class="list-built__items list-built__items_without">
+                                                    <li class="list-built__item">
+                                                        <a href="mailto:info@dreamfish.moscow">info@dreamfish.moscow</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="book.html" class="content-contacts__button btn _icon-a-next _fw">
+                                        <span>Забронировать столик</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
         <footer class="footer">
     <div class="footer__container _container2">
@@ -179,6 +243,9 @@
     </div>
     <script src="js/vendors.min.js"></script>
 <script src="js/app.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQxag5NXd3uaFcxcWacmmD0BaPuaMXtKA&callback=initMap&libraries=&v=weekly"
+        async></script>
 </body>
 
 </html>

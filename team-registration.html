@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>thanks</title>
+    <title>team-register</title>
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.min.css">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="wrapper wrapper-full2">
+    <div class="wrapper">
         <!-- *Header -->
         <header class="header">
     <div class="header__container _container">
@@ -127,27 +127,72 @@
 </header>
         <!-- *page-->
         <main class="page">
-            <section class="registered">
-                <div class="registered__container">
-                    <div class="registered__body">
-                        <div class="registered__image">
-                            <img src="img/oyster.svg" alt="oyster">
-                        </div>
-                        <div class="registered__content">
-                            <h2 class="registered__title _title">Спасибо!</h2>
-                            <div class="registered__text">
-                                <p>
-                                    Вы забронировали столик в «Рыбе Мечты» по адресу Москва, Садовнической 57с1.
-                                    Ждем Вас 15.10.2021 в 15:10.
-                                </p>
-                                <p>
-                                    Если у вас есть вопросы, или вы хотите отменить бронь, позвоните по номеру: <br>
-                                    <a href="tel:+79153777377" class="_hv-color">+7 (915) 377-73-77</a>
-                                </p>
+            <section class="team-register book">
+                <div class="book__container _container">
+                    <div class="book__body">
+                        <div class="book__main">
+                            <div class="book__header">
+                                <h2 class="book__title _title">Стать частью команды</h2>
                             </div>
-                            <a href="menu.html" class="registered__more _more _icon-a-next">
-                                <span>Смотреть меню</span>
-                            </a>
+                            <form action="" class="book__form form">
+                                <div class="book__form-body">
+                                    <div class="book__line">
+                                        <label for="" class="form__label">Вакансия</label>
+                                        <select name="form[]" class="sel">
+                                            <option value="1" selected="selected">
+                                                оффициант
+                                            </option>
+                                            <option value="2">Повар</option>
+                                            <option value="3">Уборщица</option>
+                                        </select>
+                                    </div>
+                                    <div class="book__lines book__lines_1">
+                                        <div class="book__line">
+                                            <label for="" class="form__label">Имя</label>
+                                            <div class="form__input">
+                                                <input autocomplete="off" type="text" name="form[]" data-value=""
+                                                    class="input">
+                                            </div>
+                                        </div>
+                                        <div class="book__line">
+                                            <label for="" class="form__label">email</label>
+                                            <div class="form__input">
+                                                <input autocomplete="off" type="text" name="form[]" data-value=""
+                                                    class="input">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="book__line">
+                                        <label for="" class="form__label">Напишите о себе</label>
+                                        <div class="form__input _textarea-dynamic">
+                                            <!-- <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="input"> -->
+                                            <textarea autocomplete="off" name="form[]" class="input"></textarea>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <label class="book__file">
+                                    <input type="file">
+                                    <div class="book__file-content">
+                                        <div class="book__file-icon">
+                                            <img src="img/icons/file.svg" alt="">
+                                        </div>
+                                        <div class="book__file-text">
+                                            прикрепить резюме
+                                        </div>
+                                    </div>
+                                </label>
+                                <button class="book__button btn _icon-a-next _fw">
+                                    <span>Забронировать столик</span>
+                                </button>
+                                <div class="book__text">
+                                    Нажимая «Забронировать столик», вы принимаете условия
+                                    <a href="">Пользовательского соглашения</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="book__image">
+                            <img src="img/command/registration.png" alt="">
                         </div>
                     </div>
                 </div>
