@@ -3453,18 +3453,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-size: 16px;
     transition: top 0.3s ease 0s;
   }
-}
-@media (max-width: 1023.98px) and (min-height: 500px) {
-  .menu__body {
-    justify-content: center;
-  }
-}
-@media (max-width: 1023.98px) {
   .menu__body ._item {
     font-size: 16px;
   }
-}
-@media (max-width: 1023.98px) {
   .menu__body::after {
     content: "";
     position: fixed;
@@ -3476,13 +3467,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     z-index: 10;
     transition: top 0.3s ease 0s;
   }
-}
-@media (max-width: 1023.98px) {
   .menu__body._active {
     top: 0;
   }
   .menu__body._active::after {
     top: 0;
+  }
+}
+@media (min-width: 767.98px) and (min-height: 650px) {
+  .menu__body {
+    justify-content: center;
   }
 }
 .menu__phone {
