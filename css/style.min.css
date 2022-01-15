@@ -5063,6 +5063,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   top: 0;
   left: 50%;
   transform: translate(-50%, 0px);
+  opacity: 0.6;
 }
 @media (max-width: 1023.98px) {
   .chef__hello-image-text {
