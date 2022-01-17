@@ -4563,7 +4563,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     animation: circle 4s linear 0s infinite forwards;
     animation-play-state: paused;
   }
-  .choice-deliver__column_yandex .choice-deliver__logo:hover {
+  .choice-deliver__column_yandex:hover .choice-deliver__logo {
     animation-play-state: running;
   }
 }
