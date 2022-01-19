@@ -2559,6 +2559,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-shadow: 0 1.25em 1.25em -0.9375em rgba(0, 0, 0, 0.3);
   box-shadow: 0 1.25em 1.25em -0.9375em rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 767.98px) {
+  .qs-datepicker-container {
+    left: -19px !important;
+    top: auto !important;
+    bottom: calc(100% + 5px);
+    box-shadow: none;
+  }
+}
 
 .qs-datepicker-container * {
   -webkit-box-sizing: border-box;
@@ -5898,13 +5906,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @media (min-width: 767.98px) {
   .rows-about__image::after {
     content: "";
-    width: 17px;
+    width: 19px;
     height: 3240px;
     display: block;
     position: absolute;
     bottom: -10px;
     z-index: 10;
-    background: url(../img/wave-vertical.svg) left bottom/17px 810px repeat-y;
+    background: url(../img/wave-vertical.svg) left bottom/19px 810px repeat-y;
     animation: wavehorizontal 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   }
 }
@@ -5916,11 +5924,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     content: "";
     display: block;
     width: 3240px;
-    height: 17px;
+    height: 19px;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
-    background: url(../img/wave-white.svg) left top/810px 17px repeat-x;
+    background: url(../img/wave-white.svg) left bottom/810px 19px repeat-x;
     animation: wave-white 15s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
     z-index: 2;
   }
