@@ -190,6 +190,8 @@ body._lock {
   height: auto;
 }
 .wrapper._loaded .wrapper__preload {
+  opacity: 0;
+  visibility: hidden;
   /* .line-map {
       // fill: black;
       stroke-dasharray: 900 900;
