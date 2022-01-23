@@ -189,9 +189,7 @@ body._lock {
 .wrapper._loaded {
   height: auto;
 }
-.wrapper._loaded .wrapper__preload {
-  opacity: 0;
-  visibility: hidden;
+.wrapper._loaded .wrapper__preload-svg {
   /* .line-map {
       // fill: black;
       stroke-dasharray: 900 900;
@@ -199,12 +197,14 @@ body._lock {
       animation: strokeLoader 4s linear 0s infinite forwards;
   } */
 }
-.wrapper._loaded .wrapper__preload .cls-1 {
-  stroke-dasharray: 500 500;
-  stroke-dashoffset: 500px;
+.wrapper._loaded .wrapper__preload-svg path {
   animation: strokeLoader 5s linear 0s infinite forwards;
 }
 @keyframes strokeLoader {
+  0% {
+    stroke-dasharray: 500 500;
+    stroke-dashoffset: 500px;
+  }
   100% {
     stroke-dashoffset: -500;
   }
