@@ -197,9 +197,6 @@ body._lock {
       animation: strokeLoader 4s linear 0s infinite forwards;
   } */
 }
-.wrapper._loaded .wrapper__preload-svg path {
-  animation: strokeLoader 5s linear 0s infinite forwards;
-}
 @keyframes strokeLoader {
   0% {
     stroke-dasharray: 500 500;
@@ -229,6 +226,10 @@ body._lock {
   max-width: 100%;
   max-height: 100%;
 }
+.wrapper__preload-svg svg path {
+  animation: strokeLoader 5s linear 0s infinite forwards;
+}
+
 ._container2, ._container {
   max-width: 1200px;
   margin: 0 auto;
