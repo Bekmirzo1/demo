@@ -179,7 +179,7 @@ body._lock {
 }
 
 .transition-fade {
-  transition: 0.8s;
+  transition: 0.6s;
   opacity: 1;
 }
 
@@ -192,7 +192,7 @@ html.is-changing .content-preload._loaded {
   visibility: visible;
 }
 html.is-changing .content-preload._loaded .content-preload__svg path {
-  animation: strokeLoader 5s linear 0s infinite forwards;
+  animation: strokeLoader 3.5s linear 0s infinite forwards;
 }
 
 .content-preload {
@@ -226,7 +226,7 @@ html.is-changing .content-preload._loaded .content-preload__svg path {
 .content-preload__svg svg path {
   stroke-dasharray: 500;
   stroke-dashoffset: -500px;
-  animation: strokeLoader 5s linear 0s infinite forwards;
+  animation: strokeLoader 3.5s linear 0s infinite forwards;
 }
 
 @keyframes strokeLoader {
